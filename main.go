@@ -8,11 +8,6 @@ import (
 	"sort"
 )
 
-var (
-	sizeInMB float64 = 999 // This is in megabytes
-	suffixes [5]string
-)
-
 type Folder struct {
 	Name string
 	Size int64
